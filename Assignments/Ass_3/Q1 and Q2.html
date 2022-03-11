@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <title>Question 1 and 2_Forms</title>
+</head>
+<body>
+    <h1>HTML Form</h1>
+    <form action="">
+        <table>
+           <tr style="text-align: left;">
+               <th><label for="fname">First name: </label></th>
+               <th><label for="lname">Last Name: </label></th>
+           </tr>
+            <tr>
+                <td> <input type="text" id="fname" name="fname"><br></td>
+                <td> <input type="text" id="lname" name="lname"></td>
+                
+            </tr>
+        </table>
+        <table>
+            <tr style="text-align: left;">
+                <th><label for="email">Mail id:</label></th>
+            </tr>
+            <tr>
+                <td>  <input type="text" id="email" name="email"></td>
+            </tr>
+        </table>
+        
+        <label for="Bday">Birthday: </label>
+        <input type="date" placeholder="25/02/2022" name="Bday" id="Bday"><br>
+        <label for="lan/g">Choose your favorite Front-end Web language:</label><br>
+        <input type="radio" name="lang" id="lang">HTML<br>
+        <input type="radio" name="lang" id="lang">CSS<br>
+        <input type="radio" name="lang" id="lang">Javascript<br>
+        <label for="back-end lang">Choose your favorite Back-end Web language: </label>
+        <select name="back-end lang" id="back-end lang">
+            <option value="PHP">PHP</option>
+            <option value="Javascript"> Javascript</option>
+            <option value="Python">Python</option>
+        </select><br><br>
+        <label for="color">Choose your favorite color: </label>
+        <input type="color" name="color" id="color"><br><br>
+        <label for="file">Select a file: </label>
+        <input type="file" name="file" id="file"><br>
+        <br>
+        <input type="button" value="Submit">
+        <input type="button" value="Reset">
+        
+        <h1>Video and Audio</h1>
+        <video src="D:\Videos\Movies\Pacific.Rim.Uprising.2018.720p.BluRay.x264-[YTS.AM].mp4" height="500" width="500" controls autoplay muted >
+        </video>
+
+        <audio controls autoplay muted>
+            <source src="D:\Videos\Movies\Pacific.Rim.Uprising.2018.720p.BluRay.x264-[YTS.AM].mp4" type="mp3/mp4">
+        </audio>
+    </form>
+</body>
+</html>
