@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Question 2.</title>
+        <script>
+            var count=0;
+            function up(){
+                document.getElementById("count").innerHTML=++count;
+            }
+            function down(){
+                document.getElementById("count").innerHTML=--count;
+            }
+            function reset(){
+                document.getElementById("count").innerHTML=count=0;
+            }
+        </script>
+ 
+        <style>
+            body{
+                background-color: skyblue;
+                text-align: center;
+                font-size: 50px;
+            }
+            button{
+                color: blue;
+                background-color: gray;
+                font-size: 25px;
+                height: 50px;
+                width: 100px;
+                border: none;
+            }
+        </style>
+    </head>
+ 
+    <body>
+        <h1>Click Counter</h1>
+        <p id="count">0</p>
+        <ul>
+            <button type="button" onclick="up()">Up</button>
+            <button type="button" onclick="down()">Down</button>
+            <button type="button" onclick="reset()">Reset</button>
+        </ul>
+    </body>
+</html>
