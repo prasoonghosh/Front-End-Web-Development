@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab 4 - Question 1</title>
+        <style>
+            .fixed{
+                position: fixed;
+                top: 10px;
+                right: 10px;
+                width: 300px;
+                border: 3px solid green;
+                clear: left;
+            }
+            .sticky{
+                position: sticky;
+                top: 0;
+                padding: 5px;
+                background-color: #cae8ca;
+                border: 2px solid #4caf50;
+                clear: left;
+            }
+            .static{
+                position: static;
+                border: 3px solid red;
+            }
+            .relative{
+                position: relative;
+                left: 50px;
+                border: 3px solid blue;
+            }
+            .relative2{
+                position: relative;
+                width: 650px;
+                height: 200px;
+                border: 3px solid #73ad21;
+                padding: 5px;
+            }
+            .absolute{
+                position: absolute;
+                top: 90px;
+                right: 20px;
+                width: 350px;
+                height: 80px;
+                border: 3px solid #73ad21;
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="float: left;">
+            <h1>CSS positions</h1>
+            <p>There are five different position values:<br>
+                <ol style="list-style-type: decimal;">
+                    <li>static</li>
+                    <li>relative</li>
+                    <li>fixed</li>
+                    <li>absolute</li>
+                    <li>sticky</li>
+                </ol>
+            </p>
+        </div>
+ 
+        <div class="fixed">
+            <h1>position: fixed;</h1>
+            <p>This div element has position: fixed;<br>top: 10px; right: 10px; width: 300px;<br>border: 3px solid green</p>
+        </div>
+ 
+        <div class="sticky">
+            <p><strong>I am sticky! </strong>top: 0; padding: 5px; background-color: #cae8ca; border: 2px solid #4caf50;</p>
+        </div>
+        <br>
+        <div class="static">
+            <p>This div element has position: static; border: 3px solid red;</p>
+        </div>
+        <br>
+        <div class="relative">
+            <p>This div element has position: relative; left: 50px; border: 3px solid blue;</p>
+        </div>
+        <br>
+        <div class="relative2">
+            <p>This div element has position; relative;<br>
+                width: 500px;<br>height: 150px;<br>
+                border: 3px solid #73ad21;<br>padding: 5px;
+            </p>
+            <div class="absolute">
+                <p>This div element has position: absolute;<br>
+                    top: 80px; right: 5px; width: 350px; height: 50px;<br>
+                    border: 3px solid #73ad21; padding: 5px;
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
