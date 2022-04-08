@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Question 3.</title>
+        <script>
+            function alertBox(){
+                alert("I am an alert box");
+                document.getElementById("alert").innerHTML;
+            }
+            function confirmBox(){
+                    var show;
+                    if(confirm("Press a button!")){
+                        show="You pressed OK!";
+                    }
+                    else{
+                        show="You pressed Cancel!";
+                    }
+                document.getElementById("confirm").innerHTML=show;
+            }
+            function promptBox(){
+                let message;
+                let person=prompt("Please enter your name:","Aman Ali Ansari");
+                if(person==null || person==""){
+                    message="User cancelled the prompt.";
+                }else{
+                    message="Hello "+person+",how are you today?";
+                }
+                document.getElementById("prompt").innerHTML=message;
+            }
+        </script>
+    </head>
+ 
+    <body>
+        <div>
+            <h1>JavaScript Alert</h1>
+            <button type="button" onclick="alertBox()">Try it</button>
+            <p id="alert"></p>
+        </div>
+ 
+        <div>
+            <h1>JavaScript ConfirmBox</h1>
+            <button type="button" onclick="confirmBox()">Try it</button>
+            <p id="confirm"></p>
+        </div>
+ 
+        <div>
+            <h1>JavaScript Prompt</h1>
+            <button type="button" onclick="promptBox()">Try it</button>
+            <p id="prompt"></p>
+        </div>
+    </body>
+</html>
