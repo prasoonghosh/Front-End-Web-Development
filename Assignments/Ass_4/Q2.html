@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>lab 4 : question2</title>
+        <style>
+            .visible{
+                background-color: powderblue;
+                width: 250px;
+                height: 65px;
+                border: 2px solid;
+                overflow: visible;
+            }
+            .hidden{
+                background-color: green;
+                width: 250px;
+                height: 65px;
+                border: 2px solid;
+                overflow: hidden;
+            }
+            .scroll{
+                background-color: lightpink;
+                width: 250px;
+                height: 65px;
+                border: 2px solid;
+                overflow: scroll;   
+            }
+        </style>
+    </head>
+ 
+    <body>
+        <h1>Overflow: visible</h1>
+        <p>By default, the overflow is visible, meaning that 
+            it is not clipped and is rendersoutside the element's box:
+        </p>
+        <div class="visible">
+            <p>background-color: powderblue;<br>width: 250px;<br>height: 65px;<br>
+                border: 2px solid;<br>overflow: visible;
+            </p>
+        </div>
+        <br><br>
+     
+        <h1>Overflow: hidden</h1>
+        <p>
+            With the hidden value, the overflow is clipped, 
+            and the rest of the content is hidden:
+        </p>
+        <div class="hidden">
+            <p>
+                You can use the overflow property<br>
+                when you want to have better control<br>
+                of the layout. The overflow property<br>
+                specifies what happens if content<br>
+                is out side the box.
+            </p>
+        </div>
+        <br><br>
+ 
+        <h1>Overflow: scroll</h1>
+        <p>
+            Setting the overflow value to scroll, the overflow is clipped and 
+            a scrollbar is added to scroll inside the box.
+        </p>
+        <div class="scroll">
+            You can use the overflow property <br>
+            when you want to have better <br>
+            control of the layout. The overflow <br>
+            property enables you to sroll up or down <br>
+            inside the box if the content is larger <br>
+             than the box.
+        </div>
+    </body>
+</html>
