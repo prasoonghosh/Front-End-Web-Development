@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Test2.css">
+    <script src="Test2.js"></script>
+    <title>Test 2</title>
+
+</head>
+<body>
+    <header>
+        <h1>My Website</h1>
+
+    </header>
+    <nav>
+        <ul class="left_nav">
+            <li><a href="About.html">About Me</a></li>
+            <li><a href="Education.html">Education</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+        </ul>
+        <ul class="right_nav">
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <nav class="places">
+            <ul><button onclick="myFunction(1)">Patna</button></ul>
+            <ul><button onclick="myFunction(2)">Lukhnow</button></ul>
+            <ul><button onclick="myFunction(3)">Mohali</button></ul>
+            <ul><button onclick="myFunction(4)">Shimla</button></ul>
+        </nav>
+        <aside id="Patna" style="display: block;">
+            <img class="Gall" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/View_of_Patna_city_from_the_top_of_Golghar.jpg/280px-View_of_Patna_city_from_the_top_of_Golghar.jpg" alt="Patna" height="400" width="600">
+            <h2>Patna</h2>
+            <p class="about">The capital of Bihar, Patna is a gateway to some of the most popular smart smart cities in the country like Lucknow and Delhi. </p>
+        </aside>
+        <aside id="Delhi" style="display: block;">
+            <img class="Gall" src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Collage_of_places_in_Lucknow.jpg" alt="Delhi" height="600" width="400">
+            <h2>Luckhnow</h2>
+            <p class="about">Lucknow, a large city in northern India, is the capital of the state of Uttar Pradesh. Toward its center is Rumi Darwaza, a Mughal gateway. Nearby, the 18th-century Bara Imambara shrine has a huge arched hall. .</p>
+        </aside>
+        <aside id="Mohali" style="display: block;">
+            <img class="Gall" src="https://i.ytimg.com/vi/4poCafCshoo/maxresdefault.jpg" alt="Mohali" height="400" width="600">
+            <h2>Mohali</h2>
+            <p class="about">
+                Located to the west of Chandigarh, Mohali is a shopper's paradise and is known for its cricket ground. Renamed SAS Nagar in memory of Sahibzada Ajit Singh, the eldest son of Guru Gobind Singh, the city along with Panchkula and Chandigarh form the Chandigarh Tricity. <br>
+                Mohali, put together with Chandigarh and Panchkula, is one of the top 10 cities of India after six Tier-I locations with respect to IT. After that, it is in league with Indore, Coimbatore and other such cities.
+            </p>
+
+        </aside>
+        <aside id="Shimla" style="display: block;">
+            <img class="Gall" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Shimla_Montage_1.jpg/250px-Shimla_Montage_1.jpg" alt="Shimla" height="600" width="400">
+            <h2>Shimla</h2>
+            <p class="about">
+                Shimla is the capital of the northern Indian state of Himachal Pradesh, in the Himalayan foothills. Once the summer capital of British India, it remains the terminus of the narrow-gauge Kalka-Shimla Railway, completed in 1903. It's also known for the handicraft shops that line The Mall, a pedestrian avenue, as well as the Lakkar Bazaar, a market specializing in wooden toys and crafts.
+            </p>
+        </aside>
+    </section>
+    <footer>
+        <p id="time"></p>
+        <script>
+            var date = new Date();
+            var day = date.getDate();
+            var month = date.getMonth();
+            var year = date.getFullYear();
+            var hour = date.getHours();
+            var min = date.getMinutes();
+            document.getElementById("time").innerHTML = day + '-' + month + '-' + year + " " + " " + hour + ":" + min + " ";
+        </script>
+        <div class="links">
+            <p>Visit me At: </p>
+            <a href="https://www.instagram.com/atheist_prasoon.ghosh/">
+                <img src="https://us.v-cdn.net/6030995/uploads/lithium_attachments/image/serverpage/image-id/2354iF0E47AD59EE2A1B7/instagran.png" alt="instagram Logo"height="100" width="100" align="left">
+            </a>
+            <a href="https://www.linkedin.com/in/prasoon-ghosh-2a8a43183/">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/800px-LinkedIn_logo_initials.png" alt="LinkedIn logo" height="100" width="100" align="left">
+            </a>
+      </div>
+    </footer>
+</body>
+</html>
