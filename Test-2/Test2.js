@@ -1,27 +1,27 @@
 function myFunction(a) {
     if (a == 1) {
-        document.getElementById("Dehradun").style.display = "block";
-        document.getElementById("Delhi").style.display = "none";
-        document.getElementById("Mohali").style.display = "none";
-        document.getElementById("Shimla").style.display = "none";
+        document.getElementById("Patna").style.display = "block";
+        document.getElementById("Luckhnow").style.display = "none";
+        document.getElementById("Indore").style.display = "none";
+        document.getElementById("Pune").style.display = "none";
     }
     else if (a == 2) {
-        document.getElementById("Dehradun").style.display = "none";
-        document.getElementById("Delhi").style.display = "block";
-        document.getElementById("Mohali").style.display = "none";
-        document.getElementById("Shimla").style.display = "none";
+        document.getElementById("Patna").style.display = "none";
+        document.getElementById("Luckhnow").style.display = "block";
+        document.getElementById("Indore").style.display = "none";
+        document.getElementById("Pune").style.display = "none";
     }
     else if (a == 3) {
-        document.getElementById("Dehradun").style.display = "none";
-        document.getElementById("Delhi").style.display = "none";
-        document.getElementById("Mohali").style.display = "block";
-        document.getElementById("Shimla").style.display = "none";
+        document.getElementById("Patna").style.display = "none";
+        document.getElementById("Luckhnow").style.display = "none";
+        document.getElementById("Indore").style.display = "block";
+        document.getElementById("Pune").style.display = "none";
     }
     else {
-        document.getElementById("Dehradun").style.display = "none";
-        document.getElementById("Delhi").style.display = "none";
-        document.getElementById("Mohali").style.display = "none";
-        document.getElementById("Shimla").style.display = "block";
+        document.getElementById("Patna").style.display = "none";
+        document.getElementById("Luckhnow").style.display = "none";
+        document.getElementById("Indore").style.display = "none";
+        document.getElementById("Pune").style.display = "block";
     }
 }
 
