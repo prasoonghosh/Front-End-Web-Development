@@ -65,7 +65,7 @@ function blurBack(){
     document.getElementById("lname").style.background = "";
     document.getElementById("pnumber").style.background = "";
     document.getElementById("email").style.background = "";
-    
+
 
 }
 function changefont(){
@@ -87,10 +87,10 @@ function prompt(){
   }
   document.getElementById("submit").innerHTML = val;
 }
-var date = new Date(); 
+var date = new Date();
 var day= date.getDate();
 var month= date.getMonth();
 var year= date.getFullYear();
 var hour=date.getHours();
 var min=date.getMinutes();
-document.getElementById("time").innerHTML = day+'-'+month+'-'+year+" "+" "+hour+":"+min+" ";
+document.getElementById("time").innerHTML = day+'-'+month+'-'+year+" "+" "+hour+":"+min+" "+"sec";
