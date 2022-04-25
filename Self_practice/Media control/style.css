@@ -1,0 +1,115 @@
+body{
+	background-color: lightblue;
+}
+div{
+		margin: 10px;
+		border: solid black;
+		padding: 20px;
+		text-align: center;
+
+}
+#div1
+{
+	background-color: lightgreen;
+	float: left;
+	width: 400px;
+	float: left;
+}
+.transform:hover{
+	transform: rotate(360deg);
+	transition: 6s;
+}
+#div2{
+	background-color: lightyellow;
+	float: left;
+	width: 700px;
+	float: left;
+}
+.transform2:hover{
+	transform: translate(20px, 70px);
+	transition: 3s;
+}
+#div3{
+	background-color: lightpink;
+	float: left;
+	width: 700px;
+	float: left;
+}
+.grow-div-3:hover{
+		-webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5);
+        transition: 0.5s;
+    }
+#div4{
+	background-color: silver;
+	float: left;
+	width: 400px;
+	float: left;
+}
+.transition1:hover{
+	-webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+}
+#div5{
+	background-color: gold;
+	float: left;
+	width: 1200px;
+	float: left;
+	animation-name: animate;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes animate{
+    from{background-color: lightgoldenrodyellow;}
+    to{background-color: red;}
+
+    from{color: black;}
+    to{color: yellow;}
+                
+            }
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightgreen;
+
+  }
+  #div1
+{
+	background-color: lightblue;
+	float: left;
+	width: 500px;
+	float: left;
+}
+   #div2{
+	background-color: lightyellow;
+	float: left;
+	width: 500px;
+	float: left;
+}
+	#div3{
+	background-color: lightpink;
+	float: left;
+	width: 500px;
+	float: left;
+	}
+	#div4{
+	background-color: silver;
+	float: left;
+	width: 500px;
+	float: left;
+	}
+	#div5{
+	background-color: gold;
+	float: left;
+	width: 500px;
+	float: left;
+	}
+ 
+}
