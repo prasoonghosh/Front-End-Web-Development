@@ -1,0 +1,27 @@
+.caption-align{
+	text-align: left;
+	font-size: 30px;
+}
+.table1{
+	border: 2px solid blue;
+	margin: 2px;
+	text-align: center;
+}
+.table2{
+	border: 2px solid blue;
+	margin: 2px;
+	text-align: center;
+	border-collapse: collapse;
+}
+.table3{
+	height: 50px;
+	border: 4px dashed red;
+	margin: 2px;
+	text-align: left;
+	
+}
+.table3-2{
+	border: 2px solid blue;
+	margin: 2px;
+	text-align: left;
+}
