@@ -1,0 +1,51 @@
+body{
+	font-family: Monaco;
+}
+h1{
+	text-align: center;
+}
+div{
+	margin: 15px;
+	border: 2px solid black;
+	width: 30%;
+	height: 150px;
+	background-color: gray;
+	float: left;
+	overflow: auto;
+}
+#span1{
+	border: 2px solid black;
+	background-color: pink;
+	float: right;
+	width: 80px;
+	text-align: center;
+}
+#span2{
+	border: 2px solid black;
+	background-color: red;
+	color: white;
+	float: right;
+	width: 80px;
+	text-align: center;
+}
+#span3{
+	border: 2px solid black;
+	background-color: yellow;
+	float: right;
+	width: 80px;
+	text-align: center;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.div1{
+		width: 45%;
+	}
+	#div2{
+		width: 95%;
+	}
+}
+@media(max-width: 767px){
+	div{
+		width: auto;
+	}
+}
+  
