@@ -6,15 +6,14 @@ body {
 }
 
 /** HEADER **/
-#header-nav{
+#header-nav {
   background-color: #f6b319;
   border-radius: 0;
   border: 0;
 }
 
-#logo-img{ 
-  background-image: url("../images/restaurant-logo_large.png");
-  background-repeat: no-repeat;
+#logo-img {
+  background: url('../images/restaurant-logo_large.png') no-repeat;
   width: 150px;
   height: 150px;
   margin: 10px 15px 10px 0;
@@ -23,6 +22,7 @@ body {
 .navbar-brand {
   padding-top: 25px;
 }
+
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
   color: #557c3e;
