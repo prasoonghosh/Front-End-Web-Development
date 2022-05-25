@@ -1,0 +1,12 @@
+header {
+    height: 100px;
+    width: auto;
+    background: saddlebrown;
+    margin: 0px;
+    padding: 0px;
+}
+header div{
+    align-content: center;
+    text-align: center;
+    color: #ffffff;
+}
