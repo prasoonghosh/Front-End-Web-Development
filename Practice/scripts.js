@@ -1,3 +1,15 @@
+//=============Lecture 44 Start=================//
+
+// -------------Default Values------------------//
+    function orderChickenWidth(sideDish){
+        sideDish = sideDish || "whatever!";
+        console.log("Chicken with "+sideDish);
+    }
+
+    orderChickenWidth("noodles");
+    orderChickenWidth();
+
+
 //==============Lecture 43 Start================//
 //----------------String Concatenation-----------
 //     var string = "Hello";
@@ -66,12 +78,14 @@
     // console.log(b());
 
 //------------------For Loop----------------------
-    var sum = 0;
-    for (var i = 0; i < 10; i++){
-        console.log(i);
-        sum = sum + i;
-    }
-    console.log("Sum of 0 through 9 is: "+sum)
+//     var sum = 0;
+//     for (var i = 0; i < 10; i++){
+//         console.log(i);
+//         sum = sum + i;
+//     }
+//     console.log("Sum of 0 through 9 is: "+sum)
+
+//==============Lecture 43 End==================//
 
 
 //==============Lecture 42 Start================//
