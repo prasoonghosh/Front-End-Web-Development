@@ -1,13 +1,50 @@
+//============ Lecture 45 Start=================//
+
+//--------------Object Creation-----------------
+//     var company = new Object();
+//     company.name = "Facebook";
+//     console.log(company);
+//     company.ceo = new Object();
+//     company.ceo.firstName = "Mark";
+//     company.ceo.favcolor = "Blue";
+//
+//     console.log(company);
+//     console.log("Company CEO name is: "
+//     + company.ceo.firstName);
+//
+//     console.log(company["name"]);
+//     var stockPropName = "Stock of company";
+//     company[stockPropName] = "stock of company"
+//     company[stockPropName] = 110;
+//
+//     console.log("Stock price is: "+ company[stockPropName]);
+
+//-------------Better way: object literal-------------
+//     var facebook = {
+//         name: "Facebook",
+//         ceo:{
+//             firstName: "Mark",
+//             favColor: "blue"
+//         },
+//         "stock of company": 110
+//     };
+//
+//     console.log(facebook.ceo.firstName);
+
+//============ Lecture 45 End===================//
+
+
 //=============Lecture 44 Start=================//
 
 // -------------Default Values------------------//
-    function orderChickenWidth(sideDish){
-        sideDish = sideDish || "whatever!";
-        console.log("Chicken with "+sideDish);
-    }
-
-    orderChickenWidth("noodles");
-    orderChickenWidth();
+//     function orderChickenWidth(sideDish){
+//         sideDish = sideDish || "whatever!";
+//         console.log("Chicken with "+sideDish);
+//     }
+//
+//     orderChickenWidth("noodles");
+//     orderChickenWidth();
+//=================Lecture 44 End=================//
 
 
 //==============Lecture 43 Start================//
