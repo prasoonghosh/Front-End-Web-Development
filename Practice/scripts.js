@@ -1,3 +1,114 @@
+//=========Lecture 50===================//
+
+//---------------Arrays----------------//
+    var array = new Array();
+    array[0] = "Prasoon";
+    array[1] = 2;
+    array[2] =
+
+
+//==========Lecture 49 Start================//
+
+//------Object Literals and "this"---------//
+//     var literalCircle = {
+//         radius: 10,
+//
+//         getArea: function (){
+//             var self = this;
+//             console.log(this);
+//
+//             var increaseRadius = function (){
+//                 self.radius = 20;
+//             };
+//             increaseRadius();
+//             console.log(this.radius);
+//
+//             return Math.PI * Math.pow(this.radius, 2);
+//
+//         }
+//     };
+//
+//     console.log(literalCircle.getArea());
+
+
+//===========Lecture 48 Start=================//
+
+    // function test(){
+    //     console.log(this);
+    //     this.myName = "Prasoon Ghosh";
+    // }
+    // test();
+    // console.log(window.myName);
+
+//-------------Function Constructors--------------//
+//     function  Circle(radius){
+//         this.radius = radius;
+//     }
+//
+//     Circle.prototype.getArea =
+//         function () {
+//             return Math.PI * Math.pow(this.radius, 2);
+//         };
+//
+//     var myCircle = new Circle(10);
+//     var otherCircle = new Circle(20);
+//     console.log(myCircle.getArea());
+//     console.log(otherCircle.getArea());
+
+//=========== Lecture 47 Start=================//
+
+//----Copy by reference vs by Value---------------//
+//     var a = 7;
+//     var b = a;
+//     console.log("a: "+a);
+//     console.log("b: "+b);
+//
+//     b = 5;
+//     console.log("after b update");
+//     console.log("a: "+a);
+//     console.log("b: "+b);
+//
+//     var a = {x: 7};
+//     var b = a;
+//     console.log(a);
+//     console.log(b);
+//
+//     b.x = 5;
+//     console.log("after b.x update");
+//     console.log(a);
+//     console.log(b);
+
+//------Pass by reference vs by value------------//
+//     function changePrimitive(primValue){
+//         console.log("in changePrimitive...");
+//         console.log("before:");
+//         console.log(primValue);
+//
+//         primValue = 5;
+//         console.log("after:");
+//         console.log(primValue);
+//     }
+//
+//     var value = 7;
+//     changePrimitive(value); /* primValue = value */
+//     console.log("after changePrimitive, orig value:");
+//     console.log(value);
+
+    // function changeObject(objValue){
+    //     console.log("in changeObject...");
+    //     console.log("before:");
+    //     console.log(objValue);
+    //
+    //     objValue.x = 5;
+    //     console.log("after:");
+    //     console.log(objValue);
+    // }
+    //
+    // value = {x: 7};
+    // changeObject(value); /* objValue = value */
+    // console.log("after change object, origin value:");
+    // console.log(value);
+
 //============ Lecture 45 Start=================//
 
 //--------------Object Creation-----------------
