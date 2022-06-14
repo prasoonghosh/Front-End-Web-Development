@@ -1,0 +1,19 @@
+{
+  "name": "ajax",
+  "version": "1.0.0",
+  "description": "This is practice for ajax",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prasoonghosh/Front-end-Web-Development.git"
+  },
+  "author": "Prasoon Ghosh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prasoonghosh/Front-end-Web-Development/issues"
+  },
+  "homepage": "https://github.com/prasoonghosh/Front-end-Web-Development#readme"
+}
